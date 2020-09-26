@@ -1,0 +1,5 @@
+*.swp
+*.*~
+vim.session
+/metadata/md5-cache
+
