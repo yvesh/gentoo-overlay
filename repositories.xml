@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "https://www.gentoo.org/dtd/repositories.dtd">
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>yvesh</name>
+        <description lang="en">Yves Hoppe's Gentoo Overlay</description>
+        <homepage>https://github.com/yvesh/gentoo-overlay</homepage>
+        <owner type="person">
+            <name>Yves Hoppe (yvesh)</name>
+            <email>info@yveshoppe.de</email>
+        </owner>
+        <source type="git">git@github.com:yvesh/gentoo-overlay.git</source>
+        <source type="git">https://github.com/yvesh/gentoo-overlay.git</source>
+        <feed>https://github.com/yveshoppe/gentoo-overlay/commits/master.atom</feed>
+    </repo>
+</repositories>
