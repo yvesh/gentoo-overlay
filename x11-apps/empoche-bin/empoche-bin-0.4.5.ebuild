@@ -13,7 +13,7 @@ DESCRIPTION="Linux time tracking and task management"
 HOMEPAGE="https://empoche.com/"
 SRC_URI="https://empoche-desktop.s3.eu-central-1.amazonaws.com/${MY_P}_amd64.deb"
 
-LICENSE="Apache-2.0"
+LICENSE="Apache-2.0 empoche"
 SLOT="0"
 KEYWORDS="~amd64"
 
