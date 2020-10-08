@@ -31,7 +31,7 @@ DEPEND="dev-libs/libpcre:3
 RDEPEND="${DEPEND}"
 
 QA_PREBUILT="
-	usr/lib/mongodb-compass/MongoDB Compass
+	usr/lib/mongodb-compass/MongoDB\ Compass
 	usr/lib/mongodb-compass/libnode.so
 	usr/lib/mongodb-compass/libffmpeg.so
 "
@@ -41,9 +41,9 @@ S="${WORKDIR}"
 src_install() {
 	insinto /usr
 	doins -r usr/.
-	fperms +x /usr/lib/mongodb-compass/MongoDB Compass
+	fperms +x "/usr/lib/mongodb-compass/MongoDB Compass"
 
-	domenu usr/share/applications/MongoDB Compass.desktop
+	domenu "usr/share/applications/MongoDB Compass.desktop"
 }
 
 pkg_postinst() {
