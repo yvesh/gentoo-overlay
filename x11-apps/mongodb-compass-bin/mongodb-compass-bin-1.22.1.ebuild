@@ -43,7 +43,7 @@ src_install() {
 	doins -r usr/.
 	fperms +x "/usr/lib/mongodb-compass/MongoDB Compass"
 
-	domenu "usr/share/applications/MongoDB Compass.desktop"
+	domenu "usr/share/applications/mongodb-compass.desktop"
 }
 
 pkg_postinst() {
