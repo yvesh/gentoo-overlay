@@ -31,7 +31,6 @@ COMMON_DEPEND="
 	dev-qt/qtwidgets:5
 	dev-qt/qtxml:5
 	>=media-libs/mlt-6.22.1[ffmpeg,frei0r,jack,qt5,sdl,xml]
-	media-libs/webvfx
 	media-video/ffmpeg
 "
 DEPEND="${COMMON_DEPEND}
